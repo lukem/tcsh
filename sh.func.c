@@ -1859,7 +1859,7 @@ doumask(Char **v, struct command *c)
 #  endif
 # endif /* SYSVREL > 3 && BSDLIMIT */
 
-# if (defined(__linux__) || defined(__GNU__) || defined(__GLIBC__))
+# if (defined(__linux__) || defined(__GNU__) || defined(__GLIBC__)) || defined(__CYGWIN__)
 #  if defined(RLIMIT_AS) && !defined(RLIMIT_VMEM)
 #   define RLIMIT_VMEM	RLIMIT_AS
 #  endif
