@@ -1,6 +1,6 @@
 $ sh.func.c
 $set 15 
-1 %s: %s: Ei õnnestu %s%s piirangut\n
+1 %s: %s: Ei õnnestu %s%s piirangut (%s)\n
 2 eemaldada
 3 seada
 4 \040kõva
